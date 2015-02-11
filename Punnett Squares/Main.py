@@ -1,6 +1,7 @@
-def isLowerCase(str):
-    if str.lower() == str:
+def is_lower_case(value):
+    if value.lower() == value:
         return True
+
 
 print('This program currently only works with 16x16 Punnett Squares.')
 print()
@@ -84,7 +85,7 @@ for i in range(0, 256):
     l1 = []
     for j in range(0, 4):
         s1 = pl5[i][j * 2] + pl5[i][j * 2 + 1]
-        if isLowerCase(s1[0]):
+        if is_lower_case(s1[0]):
             s2 = s1[1]
             s3 = s1[0]
             s1 = s2 + s3
