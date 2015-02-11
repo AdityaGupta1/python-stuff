@@ -1,0 +1,5 @@
+= Python Stuff
+
+This repository is the home to all my random Python projects. Currently it contains:
+
+. Punnett Squares: A project that can tell you the genotypes of the offspring of two parents. Currently only works when four traits of both parents are given.
